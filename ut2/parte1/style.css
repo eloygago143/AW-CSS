@@ -1,22 +1,21 @@
 
-*{
-    box-sizing: border-box;
+{ box-sizing: border-box;
 }
 :root {
     background: #a2bfe6;
     text: #21334e;
-    accent: #f0b74b;
+    accent: #e6b55c;
     accent-light: #e8f0f8;
 }
 body {
     margin: 0;
-    background: var(background);
-    color: var(text);
+    background: var(--background);
+    color: var(--text);
     font-family: Arial;
 }
 header, nav, main, aside, footer {
     max-width: 60rem;
-    margin: 0 auto;
+    margin: 0 ;
     padding: 15px;
 }
 h1 {
@@ -28,18 +27,19 @@ h2 {
 h3 {
     font-size: 1.2rem;
 }
-header {  border-bottom: 3px solid var(accent);
+header {  border-bottom: 3px solid var(--accent);
 }
-nav { background: var(accent-light);
+nav { background: var(--accent-light);
     border-radius: 5px;
 }
 main {
     background: rgb(171, 241, 212);
 }
 aside {
-    background: var(accent-light);
+    background: var(--accent-light);
 }
 img {
     max-width: 100%;
 }
+
 
