@@ -1,0 +1,25 @@
+
+body {
+    margin: 0;
+ 
+h2 { font-size: 1.75rem; }
+a { color: #1763a0; }
+img {
+    max-width: 100%;
+    height: auto;
+} header, nav, main, aside, footer {
+    max-width: 60rem;
+    margin:  0 auto;
+    padding: 1rem;
+}
+nav ul {
+    background-color: #f8fafc;
+    border-radius: 0.75rem;
+    margin:0;
+    padding: 0.75rem 2.5rem;
+} header {
+    border-bottom: 4px solid #94c96b;
+}
+footer {
+    border-top: 1px solid #d3dee7;
+}
